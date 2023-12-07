@@ -13,7 +13,7 @@ def z_test(sample_mean, mu, sigma, n, alpha=0.05):
     
     print(f"Z-статистика : {z_statistic}")
     print(f"Критическое значение : {critical_value}")
-    if z_statistic >critical_value:)
+    if z_statistic >critical_value:
         print("Отвергаем нулевую гипотезу")
     else:
         print("Принимаем нулевую гипотезу")
